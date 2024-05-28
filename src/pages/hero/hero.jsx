@@ -54,7 +54,7 @@ export const Hero = () => {
                      <div className='hB'>
                       
                         <h1 id='nLeft' className='txtG'>
-                            Jaden
+                            ahmed
                         </h1>
                     </div>
                         <ul>
