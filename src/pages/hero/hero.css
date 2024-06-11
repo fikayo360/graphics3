@@ -1,6 +1,6 @@
 #hero{
     width: 100vw;
-    height: 100vh;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -237,9 +237,7 @@
 }
 
 @media (min-width: 250px) and (max-width: 360px){
-    #hero{
-        height: 750px;
-    }
+    
      #navWrap ul,#socialIcons{
         display: none;
     }
@@ -286,9 +284,7 @@
 }
 
 @media (min-width: 361px) and (max-width: 480px){
-    #hero{
-        height: 850px;
-    }
+   
 
      #navWrap ul,#socialIcons{
         display: none;
@@ -336,9 +332,7 @@
 }
 
 @media (min-width: 481px) and (max-width: 680px){
-    #hero{
-        height: 780px;
-    }
+   
      #navWrap ul,#socialIcons{
         display: none;
     }
@@ -385,9 +379,7 @@
 }
 
 @media (min-width: 681px) and (max-width: 768px){
-    #hero{
-        height: 750px;
-    }
+   
      #navWrap ul,#socialIcons{
         display: none;
     }
@@ -434,10 +426,6 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
-  
-    #hero{
-        height: 800px;
-    }
 
    #heroOther{
        margin-top: 2rem;
@@ -481,9 +469,6 @@
 }
 
 @media (min-width: 1025px) and (max-width: 1280px){
-    #hero{
-        height: 800px;
-    }
 
    #heroOther{
    margin-top: 2rem;
