@@ -21,17 +21,17 @@ const Extra1 = () => {
 
     return (
         <section id='extra' ref={container}>
-                <p id='e' className='bt'>"If I could give Electron and his photography business more than five stars,
-                     I would do it in a heartbeat! From start to finish, Electron has been an absolute dream to work with, and his talent behind the lens is truly unparalleled.
+                <p id='e' className='bt'>"If I could give Big crown and his photography business more than five stars,
+                     I would do it in a heartbeat! From start to finish, Big crown has been an absolute dream to work with, and his talent behind the lens is truly unparalleled.
 
-                    From the moment we met Electron, it was clear that he wasn't just
+                    From the moment we met Big crown, it was clear that he wasn't just
                     another photographer – he's a true artist who pours his heart and soul into his craft. 
                     His passion for capturing the beauty and emotion of every moment shines through in every single photograph he takes.
 
-                    Leading up to our big day, Electron took the time to understand our vision and preferences, 
-                    ensuring that every shot reflected our unique style and personality. On the day of the wedding, Electron and his team were an absolute joy to have around – professional, attentive, and incredibly talented.
+                    Leading up to our big day, Big crown took the time to understand our vision and preferences, 
+                    ensuring that every shot reflected our unique style and personality. On the day of the wedding, Big crown and his team were an absolute joy to have around – professional, attentive, and incredibly talented.
 
-                    But it's not just about the technical skill – Electron has an incredible ability to make you feel comfortable and at
+                    But it's not just about the technical skill – Big crown has an incredible ability to make you feel comfortable and at
                     ease in front of the camera, capturing the most authentic and heartfelt moments that we will treasure for a lifetime.
                 </p>
             <h1 className='bt'>Matt & ashley</h1>
