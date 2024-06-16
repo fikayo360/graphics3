@@ -1,96 +1,136 @@
 #contact{
     width: 100vw;
-    min-height: 70vh;
+    min-height:60vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
     background: linear-gradient(327.21deg, rgba(33, 0, 75, 0.24) 3.65%, rgba(60, 0, 136, 0) 40.32%),
-    linear-gradient(245.93deg, rgba(209, 21, 111, 0.16) 0%, rgba(209, 25, 80, 0) 36.63%), linear-gradient(147.6deg, rgba(58, 19, 255, 0) 29.79%,
-     rgba(98, 19, 255, 0.01) 85.72%), #13111C;
+ linear-gradient(245.93deg, rgba(209, 21, 111, 0.16) 0%, rgba(209, 25, 80, 0) 36.63%), linear-gradient(147.6deg, rgba(58, 19, 255, 0) 29.79%,
+  rgba(98, 19, 255, 0.01) 85.72%), #13111C;
 }
 
-#contactCenter{
-    display: flex;
-    width: 40%;
-    min-height: 500px;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2rem;
-    padding: 25px;
-    background-color:rgba(98, 54, 170, 0.089) ;
-    border-radius: 3%;
+#contact h1{
+     font-size: 2.2rem;
+     font-weight: bold;
+     margin-bottom: 2rem;
+     color: #FFFFFF;
 }
 
-#contactCenter form{
+#contact form{
+    width: 60%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    gap:1rem;
-    justify-content: flex-start;
     align-items: center;
-    margin-bottom: 2rem;
+    gap:0.6rem;
 }
 
-
-#contactCenter h2{
-    font-size: 1.4rem;
-    font-weight: bold;
-    color: #ffffff;
+#contact form input{
+    height: 2.8rem;
 }
 
-#contactCenter h1{
-    font-size: 1.1rem;
-    color: #ffffff;
+#contact form textarea{
+    height: 6rem;
 }
 
-#contactCenter form input,textarea{
-    width:70%;
-    font-size: 1.1rem;
-    padding: 10px;
-    color: black;
+#contact form input,#contact form textarea{
+    width: 25rem;
+    font-size: 0.8rem;
+    padding: 8px;
+    border: 0.5px solid black;
     border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: #222121;
 }
 
-#contactCenter form input,textarea::placeholder{
-    font-size: 1.1rem;
-    font-weight: bold;
+#contact form textarea::placeholder,#contact form input::placeholder{
+    font-size: 0.9rem;
+    color: rgb(15, 14, 14);
+
 }
 
-#contactCenter form input{
-    height: 3rem;
+#contact form button{
+    width: 8rem;
+    height: 2.6rem;
+    background-color: rgb(176, 112, 189);
+    color:#0f0d0d;
+    font-size: 1rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#contactCenter form textarea{
-   min-height: 4rem;
+#contact form button:hover{
+    background-color: #646cff;
+    color: #FFFFFF;
 }
 
-#contactCenter form button{
-    width: 70%;
-    height: 50px;
-    font-size: 1.1rem;
-    color: #ffff;
-    background-color: #067ff3;
- }
+.custom-shape-divider-top-1713155344 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
 
- @media(min-width:250px) and (max-width: 1024px){
-    #contactCenter{
-        width: 90%;
-        min-height: 450px;
-        gap: 2.5rem;
+.custom-shape-divider-top-1713155344 svg {
+    position: relative;
+    display: block;
+    width: calc(125% + 1.3px);
+    height: 58px;
+}
+
+.custom-shape-divider-top-1713155344 .shape-fill {
+    fill: #FFFFFF;
+}
+
+@media (min-width: 250px) and (max-width: 1417px){
+    .custom-shape-divider-top-1713155344{
+        display: none;
+    }
+}
+
+@media (min-width: 250px) and (max-width: 1024px){
+    #contact form{
+        width: 100%;
+        gap:0.5rem;
     }
 
-    #contactCenter form{
-        gap:0.3rem;
+    #contact form input,#contact form textarea{
+        width: 70%;
     }
-
-    #contactCenter form input,textarea{ 
-        width:90%;
-        font-size: 1rem;
-        padding: 15px;
+    #contact form button{
+        width: 50%;
+        height: 2.5rem;
+        font-size: 1.1rem;
     }
-
-    #contactCenter form button{
-        width:90%;
-        height: 50px;
-        font-size: 1rem;
-     }
+    
 }
+
+@media (min-width: 250px) and (max-width: 480px){
+    #contact h1{
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+    }
+
+    #contact form input{
+        height: 2.4rem;
+    }
+    
+    #contact form textarea{
+        height: 5rem;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    #contact h1{
+        font-size: 2rem;
+        margin-bottom: 1.2rem;
+    }
+}
+

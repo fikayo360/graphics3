@@ -1,40 +1,33 @@
 import './footer.css'
-import { useInView } from 'react-intersection-observer';
 
-export function Footer(){
-    const [ref, inView] = useInView();
+const Footer = () => {
     return (
-        <section id='footer' >
-         
-           <h6 id='footerName' ref={ref} className={`${inView?'animate__animated animate__fadeInDown animate__slow':''}`}>
-            Big*<span className='hIc'><img src='profile.png' /></span>*Crown</h6>
-{/*             
-            <div id="footerBot">
-                <div className='footerItems'>
-                    <h2 id='letsWork' className='footerHeads'>lets work together </h2>
+        <section id='footer'>
+            <div id='footerWrap'>
+                <div id='footerLeft'>
+                   <h1>nuel.</h1>
+                    <p>copyright &copy; 2024 Rychard all rights reserved</p>
                 </div>
 
-                <div className='footerItems'>
-                    <h2 className='footerHeads'>sitemap </h2>
-                    <ul>
-                        <li><a href='#hero'>home</a></li>
-                        <li><a href='#about'>about</a></li>
-                        <li><a href='#portfolio'>portfolio</a></li>
-                        <li><a href='#testimonials'>testimonials</a></li>
-                        <li><a href='#contact'>contact</a></li>
-                    </ul>
+                <div id='footerRight'>
+                <ul>
+                    <li><a href='#home' >Home</a></li>
+                    <li><a href='#about'>about</a></li>
+                    <li><a href='#services'>skills</a></li>
+                    <li><a href='#portfolio'>portfolio</a></li>
+                    <li><a href='#testimonial'>testimonials</a></li>
+                    <li><a href='#contact'>contact</a></li> 
+                </ul>
+                <div id='socialIcons'>
+                        <img src='./facebook.png' />
+                        <img src='./instagram.png' />
+                        <img src='./pinterest.png' />
                 </div>
+                 </div>
 
-                <div className='footerItems'>
-                    <h2 className='footerHeads'>socials</h2>
-                    <ul>
-                    <li><a>facebook</a></li>
-                    <li><a>twitter</a></li>
-                    <li><a>instagram</a></li>
-                    <li><a>dribble</a></li>
-                    </ul>
-                </div>
-            </div> */}
+            </div>
         </section>
     )
 }
+
+export default Footer
