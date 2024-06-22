@@ -48,7 +48,7 @@ const Home = () => {
                  navActive? (<div id='navMobile' className={`animate__animated ${inView?'animate__slideInDown animate__slow':''}`} ref={ref}>
                  <header>
                      <h1>blizzid</h1>
-                     <img src='./close.png' onClick={toggleMobileNav}/>
+                     <img src='./close.png' onClick={toggleMobileNav}/>  
                  </header>
                  <ul id='navMobileList'>
                             <li  className={`lItems animate__animated ${inView?'animate__fadeInDownBig animate__delay-1.5s animate__slow':''}`} ref={ref}> <a href='#home' >Home</a></li> 
