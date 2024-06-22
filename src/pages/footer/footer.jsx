@@ -5,8 +5,8 @@ const Footer = () => {
         <section id='footer'>
             <div id='footerWrap'>
                 <div id='footerLeft'>
-                   <h1>nuel.</h1>
-                    <p>copyright &copy; 2024 Rychard all rights reserved</p>
+                   <h1>blizzid.</h1>
+                    <p>copyright &copy; 2024 blizzid all rights reserved</p>
                 </div>
 
                 <div id='footerRight'>
