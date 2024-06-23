@@ -5,7 +5,7 @@ const Footer = () => {
         <section id='footer'>
             <div id='footerWrap'>
                 <div id='footerLeft'>
-                   <h1>blizzid.</h1>
+                   <h1>James.</h1>
                     <p>copyright &copy; 2024 blizzid all rights reserved</p>
                 </div>
 

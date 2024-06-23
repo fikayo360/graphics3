@@ -47,7 +47,7 @@ const Home = () => {
             {
                  navActive? (<div id='navMobile' className={`animate__animated ${inView?'animate__slideInDown animate__slow':''}`} ref={ref}>
                  <header>
-                     <h1>blizzid</h1>
+                     <h1>james</h1>
                      <img src='./close.png' onClick={toggleMobileNav}/>  
                  </header>
                  <ul id='navMobileList'>
@@ -67,7 +67,7 @@ const Home = () => {
                     <li><a href='#portfolio'>portfolio</a></li>
                     <li><a href='#about'>about</a></li>
                 </ul>
-                <h2>blizzid photography</h2>  
+                <h2>james chalahani</h2>  
                 <ul id='navRight'>
                     <li><a href='#testimonial'>testimonials</a></li>
                     <li><a href='#services'>skills</a></li>
