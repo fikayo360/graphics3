@@ -88,7 +88,7 @@ export const Footer = () => {
                 <div id='mfb'>
                     <h1 className='fT'>gagans photo </h1>
                     <div id='mfbL'>
-                        <p>All rights reserved &copy 2024</p>
+                        <p>All rights reserved &copy; 2024</p>
                         <div id='lr'>
                             <span><a href='#hero'>back to top</a></span>
                             <div id='lrb'><img className='upp' src='./upp.png' /></div>
