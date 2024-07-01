@@ -1,188 +1,303 @@
 #footer{
-    width: 100vw;
+    width:100vw;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(240, 61%, 7%);
+}
+
+#footer h1,#footer p,#footer ul li a,#footer span,#footer textarea{
+    color:hsl(240, 10%, 90%)
+}
+
+#footer header{
+    display: flex;
+    justify-content: center;
+    padding: 6rem 0rem;
+    width: 100%;
+    height: auto;
+    border-bottom: 0.5px solid hsl(240, 10%, 90%);
+}
+
+#footer header #hw{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer header #hw h1{
+    margin-bottom: 4rem;
+}
+
+#hb{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#hb textarea{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: transparent;
+    border-color: hsl(240, 10%, 90%);
+}
+
+#hb textarea::placeholder{
+    color: hsl(240, 10%, 90%);
+}
+
+#hbic{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(27, 34, 29);
-    padding: 3rem 0;
+    border: 0.3px solid hsl(240, 10%, 90%);
+    width: 4rem;
+    height:4rem;
+    cursor: pointer;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
 }
 
-#footer h1,p,li a{
-    color: #ffffff;
+.cover{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-color: hsl(165, 84%, 22%);
+    transform: translateY(100%);
+    transition: transform 0.5s linear;
 }
 
-#footerWrap{
-    width: 60%;
-    display: flex;
-    gap:2rem
+#hbic img{
+    width: 1.2rem;
+    height: 1.2rem;
+    object-fit: contain;
+    z-index: 3;
 }
 
-#footerLeft,#footerRight{
-    width: 50%;
+#hbic:hover{
+    border-color: transparent;
+}
+
+#hbic:hover .cover{
+    transform: translateX(0%);
+}  
+
+/* */
+
+#footer main{
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 0.9rem;
+    padding-top: 2rem;
 }
 
-#footerLeft{
+#footer main #mwrap{
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.mwrapi{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    padding: 3px auto;
+    width: 20%;
+    height: auto;
+}
+
+.mwrapi p{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    width: 90%;
+    font-size: clamp(1rem, 3vw, 1.8rem);
+}
+
+.mwrapi h1{
+    margin: 0;
+    padding: 0;
+    text-wrap:nowrap;
+    margin-bottom: 1rem;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+
+}
+
+.mwrapi ul
+{
+    display: flex;
     align-items: flex-start;
+    flex-direction: column;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    gap: 3px;
 }
 
-#footerLeft h1{
-    font-size: 1.1rem;
-    font-weight: bold;
+#footer ul li a{
+    cursor: pointer;
+    font-size: clamp(1rem, 3vw, 1.8rem);
+    transition: color 0.3s ease-in;
 }
 
-#footerLeft p{
-    font-size: 0.8rem;
-    color: #ffffff;
+#footer ul li a:hover{
+    color: blueviolet;
 }
 
-#footerRight{
-    align-items: flex-end;
-}
-
-#footerRight ul{
+#mfb{
     display: flex;
-    gap: 1.5rem;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 8rem;
 }
 
-#footerRight ul li a{
+#mfb h1{
+    font-size: clamp(3em, 15vw, 14em);
+    line-height: 0;
+    margin-bottom: 0;
+}
+
+#mfbL{
     display: flex;
-    gap: 1rem;
-    font-size: 0.8rem;
+    width: 100%;
+    gap:5rem;
+    justify-content: center;
+}
+
+#lr{
+    display: flex;
+    align-items: center;
+}
+
+#lr span a{
+    color:hsl(240, 10%, 90%)
+}
+
+#lrb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+}
+
+#lrb img{
+    width: 1.2rem;
+    height: 1.2rem;
+    object-fit: contain;
     cursor: pointer;
 }
 
-#footerRight ul li a:hover{
-    color: rgb(114, 29, 117);
-}
 
-#socialIcons{
-    display: flex;
-    gap:0.5rem
-}
 
-#socialIcons img{
-    width: 1rem;
-    height: 1rem;
-    cursor: pointer;
-}
 
-@media (min-width: 250px) and (max-width: 1024px){
-    #footer{
-        padding: 0.2rem 0;
+
+@media (min-width:250px) and (max-width:1024px){
+    #mfb{
+        gap: 2rem;
     }
 
-    #footerWrap{
+    #footer main #mwrap{
         width: 100%;
-        height: auto;
-        gap:2rem;
-        flex-direction: column;
-        align-items: flex-start;
+        padding-top: 2rem;
+        padding-left: 4rem;
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+
+    .mwrapi{
+        padding: 2px auto;
+    }
+
+    .mwrapi p{
+       width: 90%;
+     }
+
+    .mwrapi,.mwrapi ul{
+        align-items:left;
     }
     
-    #footerLeft,#footerRight{
-        gap: 1rem;
-        height: auto;
-        width: max-content;
-        padding:0 1rem;
-    }
-    #footerRight{
-        align-items: flex-start;
-    }
-    
-    #footerRight ul{
-        gap: 1.3rem;
+    .mwrapi h1{
+       text-align: left;
+       line-height: 30px;
+       margin-bottom: 0.7rem;
     }
 }
 
-@media (min-width: 250px) and (max-width: 768px){
-    #footerLeft h1{
-        font-size: 1.3rem;
+@media (min-width:250px) and (max-width:480px){
+    .mwrapi{
+        width: 95%;
+        line-height: 15px;
     }
-    
-    #footerLeft p{
-        font-size: 0.8rem;
+
+    .mwrapi ul
+    {
+        gap: 12px;
     }
-    
-    #socialIcons{
-        gap:0.8rem
+    #lrb img{
+        width: 0.9rem;
+        height: 0.9rem;
     }
-    
-    #socialIcons img{
-        width: 1.1rem;
-        height: 1.1rem;
+
+    #hbic{
+        width: 3.5rem;
+        height:3.5rem;
     }
-   
+
+    .mwrapi p{
+        line-height: 25px;
+      }
 }
 
-@media (min-width: 250px) and (max-width: 480px){
-    #footerRight ul li a{
-        font-size: 0.8rem;
+@media (min-width:481px) and (max-width:768px){
+    #mfb{
+        gap: 4rem;
     }
-    #footerRight ul{
-        width: 80%;
-        gap: 0.6rem;
+    #lrb img{
+        width: 1rem;
+        height: 1rem;
     }
+
+    .mwrapi p{
+        line-height: 35px;
+      }
 }
 
-@media (min-width: 481px) and (max-width: 768px){
-    #footerRight ul li a{
-        font-size: 0.9rem;
+@media (min-width:769px) and (max-width:1024px){
+    #mfb{
+        gap: 5.5rem;
     }
-    #footerRight ul{
-        width: 80%;
-        gap: 0.7rem;
-    }
+
+    .mwrapi p{
+        line-height: 30px;
+      }
+      .mwrapi h1{
+        margin-bottom: 1rem;
+     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px){
-    #footerLeft h1{
-        font-size: 1.5rem;
-    }
-    
-    #footerLeft p{
-        font-size: 1.3rem;
+@media (min-width:481px) and (max-width:1024px){
+    .mwrapi{
+        width: 43%;
+        line-height: 15px;
     }
 
-    #footerRight ul li a{
-        gap: 1.3rem;
-        font-size: 1.1rem;
-    }
-    
-    #socialIcons{
-        gap:1rem
-    }
-    
-    #socialIcons img{
-        width: 1.3rem;
-        height: 1.3rem;
-    }
-   
-}
-
-@media (min-width: 250px) and (max-width: 480px){
-    #footerWrap{
-        padding: 1.2rem;
-    }
-}
-
-@media (min-width: 481px) and (max-width: 640px){
-    #footerWrap{
-        padding: 1.5rem;
-    }
-}
-
-@media (min-width: 641px) and (max-width: 768px){
-    #footerWrap{
-        padding: 1.8rem;
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px){
-    #footerWrap{
-        padding: 2.3rem;
+    .mwrapi ul
+    {
+        gap: 18px;
     }
 }
