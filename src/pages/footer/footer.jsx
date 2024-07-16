@@ -57,7 +57,7 @@ export const Footer = () => {
                     <div  className='mwrapi'>
                         <h1>contact</h1>
                         <p>
-                            you can find our office address @ 27, stratfordshire haven avenue opposite thomas roundabout off maryland strait kentucky,
+                            you can find our office address @ 27, glourious hope avenue mobalaji thomas roundabout off iyana ejigbo close agric,Ikorodu lagos state nigeria
                         </p>
                     </div>
 
@@ -86,9 +86,9 @@ export const Footer = () => {
                 </div>
 
                 <div id='mfb'>
-                    <h1 className='fT'>gagans photo </h1>
+                    <h1 className='fT'>Franklin Okafor </h1>
                     <div id='mfbL'>
-                        <p>All rights reserved &copy; 2024</p>
+                        <p>All rights reserved 2024</p>
                         <div id='lr'>
                             <span><a href='#hero'>back to top</a></span>
                             <div id='lrb'><img className='upp' src='./upp.png' /></div>

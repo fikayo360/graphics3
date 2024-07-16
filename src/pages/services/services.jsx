@@ -9,7 +9,7 @@ export const Services = () => {
             <div id='serviceM'>
                 <div id='servicesWrap'>
                 <div className='service'>
-                    <img src='https://www.marthastewart.com/thmb/VZ4rFcAhJ9-2zR7AyvqyO7UoNe4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ericka-meechaeyl-wedding-couple-1019-1f38d2effbdd496fa34c19ef573c3927.jpg' />
+                    <img src='https://cdn0.hitched.co.uk/article/3069/3_2/1280/jpg/129603-engagement-photo-ideas-can-i-have-this-dance.jpeg' />
                     <span>engagement shots</span>
                 </div>
                 <div className='service'>
@@ -21,7 +21,7 @@ export const Services = () => {
                     <span>groom shots</span>
                 </div>
                 <div className='service'>
-                    <img src='https://www.brides.com/thmb/XEPd0t9iVQIKeyqfv4UcbT7VTfE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/jeanine-chris_01-633d13b1f9994450b4f0c087073c2918.jpg'/>
+                    <img src='https://cdn0.hitched.co.uk/article/2271/3_2/960/png/121722-jose-hero-image.jpeg'/>
                     <span>wedding shots</span>
                 </div>
                 <div className='service'>

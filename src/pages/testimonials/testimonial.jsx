@@ -10,7 +10,7 @@ export const Testimonial = () => {
             <div id='rWrap'>
             <div id='allReviews'>
                 <div className="review">
-                    <p className='rFp'>I have benefited from gagans services for a full UI/UX project, with an engagement that lasted about 3 months.
+                    <p className='rFp'>I have benefited from Franklin services for a full UI/UX project, with an engagement that lasted about 3 months.
                          I couldn't be more enthusiastic about the intelligent, subtle and pragmatic approach taken by Amjad along the path. 
                          Always available and he & the team delivered great results while also meeting all 
                         the interim deadlines and objectives. Already impatient for the next project we can work on together!
@@ -24,7 +24,7 @@ export const Testimonial = () => {
                     </div>
                 </div>
                 <div className="review">
-                    <p className='rFp'>I have benefited from gagans services for a full UI/UX project, with an engagement that lasted about 3 months.
+                    <p className='rFp'>I have benefited from Franklin services for a full UI/UX project, with an engagement that lasted about 3 months.
                          I couldn't be more enthusiastic about the intelligent, subtle and pragmatic approach taken by Amjad along the path. 
                          Always available and he & the team delivered great results while also meeting all 
                         the interim deadlines and objectives. Already impatient for the next project we can work on together!
@@ -38,7 +38,7 @@ export const Testimonial = () => {
                     </div>
                 </div>
                 <div className="review">
-                    <p className='rFp'>I have benefited from gagans services for a full UI/UX project, with an engagement that lasted about 3 months.
+                    <p className='rFp'>I have benefited from Franklin services for a full UI/UX project, with an engagement that lasted about 3 months.
                          I couldn't be more enthusiastic about the intelligent, subtle and pragmatic approach taken by Amjad along the path. 
                          Always available and he & the team delivered great results while also meeting all 
                         the interim deadlines and objectives. Already impatient for the next project we can work on together!
@@ -52,7 +52,7 @@ export const Testimonial = () => {
                     </div>
                 </div>
                 <div className="review">
-                    <p className='rFp'>I have benefited from gagans services for a full UI/UX project, with an engagement that lasted about 3 months.
+                    <p className='rFp'>I have benefited from Franklin services for a full UI/UX project, with an engagement that lasted about 3 months.
                          I couldn't be more enthusiastic about the intelligent, subtle and pragmatic approach taken by Amjad along the path. 
                          Always available and he & the team delivered great results while also meeting all 
                         the interim deadlines and objectives. Already impatient for the next project we can work on together!
@@ -66,7 +66,7 @@ export const Testimonial = () => {
                     </div>
                 </div>
                 <div className="review">
-                    <p className='rFp'>I have benefited from gagans services for a full UI/UX project, with an engagement that lasted about 3 months.
+                    <p className='rFp'>I have benefited from Franklin services for a full UI/UX project, with an engagement that lasted about 3 months.
                          I couldn't be more enthusiastic about the intelligent, subtle and pragmatic approach taken by Amjad along the path. 
                          Always available and he & the team delivered great results while also meeting all 
                         the interim deadlines and objectives. Already impatient for the next project we can work on together!
@@ -80,7 +80,7 @@ export const Testimonial = () => {
                     </div>
                 </div>
                 <div className="review">
-                    <p className='rFp'>I have benefited from gagans services for a full UI/UX project, with an engagement that lasted about 3 months.
+                    <p className='rFp'>I have benefited from Franklin services for a full UI/UX project, with an engagement that lasted about 3 months.
                          I couldn't be more enthusiastic about the intelligent, subtle and pragmatic approach taken by Amjad along the path. 
                          Always available and he & the team delivered great results while also meeting all 
                         the interim deadlines and objectives. Already impatient for the next project we can work on together!
@@ -94,7 +94,7 @@ export const Testimonial = () => {
                     </div>
                 </div>
                 <div className="review">
-                    <p className='rFp'>I have benefited from gagans services for a full UI/UX project, with an engagement that lasted about 3 months.
+                    <p className='rFp'>I have benefited from Franklin services for a full UI/UX project, with an engagement that lasted about 3 months.
                          I couldn't be more enthusiastic about the intelligent, subtle and pragmatic approach taken by Amjad along the path. 
                          Always available and he & the team delivered great results while also meeting all 
                         the interim deadlines and objectives. Already impatient for the next project we can work on together!
@@ -108,7 +108,7 @@ export const Testimonial = () => {
                     </div>
                 </div>
                 <div className="review">
-                    <p className='rFp'>I have benefited from gagans services for a full UI/UX project, with an engagement that lasted about 3 months.
+                    <p className='rFp'>I have benefited from Franklin services for a full UI/UX project, with an engagement that lasted about 3 months.
                          I couldn't be more enthusiastic about the intelligent, subtle and pragmatic approach taken by Amjad along the path. 
                          Always available and he & the team delivered great results while also meeting all 
                         the interim deadlines and objectives. Already impatient for the next project we can work on together!

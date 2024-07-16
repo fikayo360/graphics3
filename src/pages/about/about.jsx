@@ -10,9 +10,9 @@ export const About = () => {
             </div>
             <div id='aboutM'>
                 <div className='aboutItem'>
-                <h1>hi, there <span><img /></span></h1>
+                <h1>hi, iam franklin <span><img /></span></h1>
                 <p>
-                With a camera in hand and a heart brimming with passion,
+                a wedding photographer based in the vibrant city of Lagos, Nigeria. With a camera in hand and a heart brimming with passion,
                  I document the magic of weddings, capturing the emotions, connections, and joyous celebrations that make your special day truly 
                  unforgettable.Growing up in Lagos, I've always been surrounded by the city's infectious energy and rich cultural tapestry. 
                  This energy is what fuels my creative spirit and translates into my photography. I find immense joy in witnessing love blossom between couples, 

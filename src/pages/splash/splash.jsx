@@ -27,7 +27,7 @@ export const Splash = () => {
             <main>
                 <img />
                 <h2 id='splashH'>
-                    Gagans photography
+                    Franklin Okafor
                 </h2>
             </main>
         </section>

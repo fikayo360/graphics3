@@ -97,7 +97,7 @@ export const Hero =  () => {
             <header>
                     <div id='hWrap'>
                         <h1 >
-                            Gagans
+                            franklin.
                         </h1>
                         <img src='x.png' onClick={hidMobileNav}/>
                     </div>
@@ -120,9 +120,9 @@ export const Hero =  () => {
                     <ul>
                         <li><a href='#about'>about</a></li>
                         <li><a href='#reviews'>reviews</a></li>
-                        <li><a href='#works'>works</a></li>
+                        <li><a href='#works'>works</a></li> 
                     </ul>
-                    <h2>Gagans photography</h2>
+                    <h2>Franklin Okafor photo</h2>
                     <ul>
                         <li><a href='#services'>services</a></li>
                         <li><a href='#footer'>contact </a></li>
